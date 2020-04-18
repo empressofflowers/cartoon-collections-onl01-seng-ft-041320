@@ -20,7 +20,7 @@ def long_planeteer_calls(array)
     else false
       false
     end
-      
+
     end
 end
 
