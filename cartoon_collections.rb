@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  #binding.pry
+  binding.pry
   array.collect {|i| puts i.capitalize + "!"}
   #array.each {|i| puts i + "!"}
 end
