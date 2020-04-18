@@ -12,10 +12,11 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
+  binding.pry
   new_array = []
   another_array = []
-  array.each {|x| new_array << x.count > 4}
-  new_array.each {|x| another_array << x.count < 4}
+  array.collect.each {|x| new_array << x.count > 4}
+  new_array.collect.each {|x| another_array << x.count < 4}
 end
 
 def find_the_cheese# code an argument here
