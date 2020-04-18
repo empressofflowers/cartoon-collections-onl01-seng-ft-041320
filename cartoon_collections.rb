@@ -16,7 +16,7 @@ def long_planeteer_calls(array)
   less_than_four = []
   array.collect.each{|i| greater_than_four << i.string.size > 4}
   array.collect.each{|i| less_than_four << i.string.size < 4}
-  
+
 end
 
 def find_the_cheese# code an argument here
