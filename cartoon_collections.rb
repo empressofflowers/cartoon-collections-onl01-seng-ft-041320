@@ -7,8 +7,8 @@ end
 
 def summon_captain_planet(array)
   #binding.pry
-  array.collect {|i| i.capitalize}
-  array.each {|i| puts i + "!"}
+  array.collect {|i| put i.capitalize + "!"}
+  #array.each {|i| puts i + "!"}
 end
 
 def long_planeteer_calls# code an argument here
