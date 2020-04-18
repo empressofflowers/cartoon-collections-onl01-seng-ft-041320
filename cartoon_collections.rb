@@ -12,17 +12,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-
-  greater_than_four = []
-  array.collect{|e| greater_than_four << e.split("").collect{|x| x.length}.join("")}
-
-  greater_than_four.all?{|e| e.to_i > 4}
-  #  binding.pry
-    if greater_than_four.include? true
-      true
-    else false
-      false
-    end
+  array.any?{|i| i.length > 4}
 end
 
 def find_the_cheese# code an argument here
