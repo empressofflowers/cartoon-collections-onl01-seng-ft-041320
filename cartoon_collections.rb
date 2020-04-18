@@ -12,7 +12,6 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  binding.pry
   new_array = []
   another_array = []
   array.collect.each {|x| new_array << x.count > 4}
