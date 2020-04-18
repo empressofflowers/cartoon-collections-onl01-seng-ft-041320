@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(array)
   new_array = []
-  array.each {|x| new_array << x.count > 4}
+  array.each.count {|x| new_array << x + 1 > 4}
   new_array
 end
 
