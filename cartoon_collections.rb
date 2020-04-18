@@ -12,10 +12,11 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  new_array = []
-  another_array = []
-  array.collect.each {|x| new_array << x.count > 4}
-  new_array.collect.each {|x| another_array << x.count < 4}
+  greater_than_four = []
+  less_than_four = []
+  array.collect.each{|i| greater_than_four << i.string.size > 4}
+  array.collect.each{|i| less_than_four << i.string.size < 4}
+  
 end
 
 def find_the_cheese# code an argument here
