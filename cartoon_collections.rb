@@ -5,6 +5,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
+  binding.pry
   new_array = []
   array.collect.each {|i| new_array <<  i.capitalize }
   new_array
