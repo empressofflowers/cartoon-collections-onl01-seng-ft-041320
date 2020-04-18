@@ -16,7 +16,7 @@ def long_planeteer_calls(array)
   greater_than_four = []
   array.collect{|e| greater_than_four << e.split(" ").collect{|x| x.length}.join(" ")}
 
-  greater_than_four.all?{|e| e > 4}
+  greater_than_four.all?{|e| e.to_i > 4}
     binding.pry
     if greater_than_four.include? true
       true
