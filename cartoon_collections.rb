@@ -15,6 +15,7 @@ def long_planeteer_calls(array)
   x = 0
   new_array = []
   array.each {|x| new_array << x.size > 4}
+  
     if new_array.include?(true)
       true
     else
