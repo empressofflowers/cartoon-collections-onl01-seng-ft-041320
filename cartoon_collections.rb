@@ -9,6 +9,7 @@ def summon_captain_planet(array)
   binding.pry
   new_array = []
   array.collect.capitalize {|i| new_array << puts "#{i}!"}
+  new_array
 end
 
 def long_planeteer_calls# code an argument here
