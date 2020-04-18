@@ -2,7 +2,7 @@ require 'pry'
 
 def roll_call_dwarves(array)
   #binding.pry
-  array.each_with_index { |i, index| puts "#{i} #{index}" }
+  array.each_with_index { |i,index| puts "#{index + 1} #{i}" }
 end
 
 def summon_captain_planet# code an argument here
