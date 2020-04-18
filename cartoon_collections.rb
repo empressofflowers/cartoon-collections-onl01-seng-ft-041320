@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   new_array = []
-  array.collect {|i| new_array <<  i.capitalize }
+  array.collect {|i| new_array <<  i.capitalize puts "#{i + 1}" }
   new_array
 end
 
