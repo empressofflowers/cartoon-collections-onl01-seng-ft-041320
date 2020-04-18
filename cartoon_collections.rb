@@ -1,12 +1,10 @@
 require 'pry'
 
 def roll_call_dwarves(array)
-  #binding.pry
   array.each_with_index { |i,index| puts "#{index + 1} #{i}" }
 end
 
 def summon_captain_planet(array)
-  binding.pry
   array.collect {|i| puts "#{i.capitalize} + !"}
 end
 
